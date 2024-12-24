@@ -23,6 +23,7 @@ func main() {
 
 	tmp = removeElement(originalSlice, 9)
 	fmt.Printf("5. %v, %p -> %p\n", tmp, originalSlice, tmp)
+
 }
 
 func newRandomSlice(from, to, count int) []int {
